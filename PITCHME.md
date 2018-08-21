@@ -5,7 +5,7 @@ No runtime errors. Safe and fun refactors!
 
 # About me
 
--Technically - Senior web engineer at Neontribe
+- Senior web engineer at Neontribe
 - Not a frontend developer
 
 Note:
@@ -19,10 +19,10 @@ Note:
 
 - Optimistic
 - Learn by doing
-- I :heart: javascript
+- I @fa[heart pink] javascript
 - Open source, open minded
 
-Note;
+Note:
 
 - In practice that means - I like to jump right in try first and fail later... then try again
 - It would surprise my colleagues to hear that - So explain The runnnig of javascript - xxx the equality, freedom it creates xxx... I do not like reading or writing javascript.
