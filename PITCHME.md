@@ -17,10 +17,14 @@ Note:
 
 +++
 
+@ul
+
 - Optimistic
 - Learn by doing
-- I @fa[heart pink] javascript
+- I @fa[heart] javascript
 - Open source, open minded
+
+@ulend
 
 Note:
 
@@ -32,11 +36,15 @@ Note:
 
 # About you
 
+@ul
+
 - Fun
 - Safety
 - Efficiency
 - Trust
 - New tech is fun - but old tech is safer
+
+@endul
 
 Note:
 
