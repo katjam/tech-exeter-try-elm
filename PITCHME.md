@@ -1,5 +1,5 @@
 # Try Elm
-![Elm logo](./elm-logo.svg | width=100)
+---?image=elm-logo.svg&size=auto 25%
 No runtime errors. Safe and fun refactors!
 
 ---
