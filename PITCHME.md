@@ -1,5 +1,5 @@
 # Try Elm
-![Elm logo](./elm-logo.svg)
+![Elm logo](./elm-logo.svg | width=100)
 No runtime errors. Safe and fun refactors!
 
 ---
@@ -7,8 +7,7 @@ No runtime errors. Safe and fun refactors!
 # About me
 
 - Senior web "engineer" at Neontribe
-- But not a frontend developer
-- Like to make stuff that helps
+- Not a frontend developer
 
 Note:
 
