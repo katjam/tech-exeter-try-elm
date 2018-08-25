@@ -1,18 +1,20 @@
 # Try Elm
+![Elm logo](./elm-logo.svg)
 No runtime errors. Safe and fun refactors!
 
 ---
 
 # About me
 
-- Senior web engineer at Neontribe
-- Not a frontend developer
+- Senior web "engineer" at Neontribe
+- But not a frontend developer
+- Like to make stuff that helps
 
 Note:
 
-- but really I'm less of a computer scientist - more a person who just likes making stuff that might make someone's life a little more enjoyable - and I'm using code to do that.  
-- These days a lot of us cover many parts of the stack to lesser or greater extent. I've never thought of myself as a frontend dev - and the bulk of my coding experience is in writing backends and APIs in php.
-- The lines are blurry
+- I've been working with web technologies for 10 years - but really I'm less of a computer scientist - more a person who just likes making stuff that might make someone's life a little more enjoyable - and I'm using code to do that.  
+- These days a lot of us cover many parts of the stack to lesser or greater extent. I've never thought of myself as a frontend dev - because I can't do visual design - and the bulk of my coding experience is in writing backends and APIs in php.
+- But - the lines are blurring
 
 
 +++
@@ -56,8 +58,9 @@ Note:
 
 # This talk will not
 
-- Teach you funcitonal programming concepts
+- Teach you functional programming concepts
 - Make excuses or justifications about the size of the Elm community vs React or Vue community
+- Discuss the newly released Elm 19 (Big yay! to Evan)
 
 +++
 
@@ -70,7 +73,7 @@ Note:
 # First some background
 ## Building a user interface
 
-Distill list and move to Notes
+Note:
 - We're lucky enough to be in a rapidly evolving industry.
 - A few years ago we'd have written html, css and a bit of jquery
 - Maybe used some templating
@@ -83,7 +86,7 @@ Distill list and move to Notes
 
 Image elm home page 'delightful language'
 
-Distill list and move to Notes
+Note:
 - Elm is a language based on functional programming principles that compiles to Javascript and defines an architecture that makes rapid prototyping, evolving and scaling web apps and maintaining a single source of truth easy.
 - Describes itself as: A delightful language for reliable webapps.
 - And claims to "Generate JavaScript with great performance and no runtime exceptions." It sounds too good to be true.... but I am going to demonstrate that you can write type safe & functional without a phd in category theory or a lisp in sight.
