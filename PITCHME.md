@@ -1,4 +1,4 @@
----?image=elm-logo.png&size=auto 50%&opacity=40
+---?image=elm-logo.png&size=auto 50%&opacity=10
 # Try Elm
 No runtime errors. Safe and fun refactors!
 
