@@ -1,5 +1,5 @@
+?image=elm-logo.svg&size=auto 25%
 # Try Elm
----?image=elm-logo.svg&size=auto 25%
 No runtime errors. Safe and fun refactors!
 
 ---
