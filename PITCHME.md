@@ -18,6 +18,8 @@ Note:
 
 +++
 
+# I like making stuff that helps
+
 @ul
 
 - Optimistic
@@ -29,6 +31,7 @@ Note:
 
 Note:
 
+- I don't mind who or what it helps as long as the help goes towards lessening the overall help needed in the universe - giving help to bad or giving bad help creates the need for more and more help to be given.
 - In practice that means - I like to jump right in try first and fail later... then try again
 - It would surprise my colleagues to hear that - So explain The runnnig of javascript - xxx the equality, freedom it creates xxx... I do not like reading or writing javascript.
 - Collaboration and sharing for progress and inclusion
