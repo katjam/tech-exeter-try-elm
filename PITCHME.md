@@ -2,7 +2,7 @@
 # Try Elm
 No runtime errors. Safe and fun refactors!
 
----?image=neontribe-logo.png&size=auto 35%&position=top&padding=20px
+---?image=neontribe-logo.png&size=auto 35%&position=bottom&padding=20px
 # About me
 @ul
 - Senior web "engineer" at Neontribe
@@ -61,8 +61,14 @@ Note:
 # This talk will not
 
 - Teach you functional programming concepts
-- Make excuses or justifications about the size of the Elm community vs React or Vue community
+- Compare Elm vs React, Vue and Angular
 - Discuss the newly released Elm 19 (Big yay! to Evan)
+
+Note:
+- Loads of people can do that much better than I can - and one of the awesome things about elm is that you can forget that it's functional. Do first - understand later.
+- I won't make excuses or justifications about the size of the Elm community
+- If you are interested in any of those, come and see me later - I can point you towards some resources.
+
 
 +++
 
