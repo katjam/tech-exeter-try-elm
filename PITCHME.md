@@ -18,6 +18,7 @@ Note:
 
 +++
 
+
 # I like making stuff that helps
 
 @ul
@@ -39,7 +40,7 @@ Note:
 ---
 
 # About you
-
+## (Assumptions I'm making about you and your motivations)
 @ul
 
 - Fun
@@ -62,7 +63,7 @@ Note:
 
 - Teach you functional programming concepts
 - Compare Elm vs React, Vue and Angular
-- Discuss the newly released Elm 19 (Big yay! to Evan)
+- Discuss the newly released Elm 0.19 (Big yay! to Evan)
 
 Note:
 - Loads of people can do that much better than I can - and one of the awesome things about elm is that you can forget that it's functional. Do first - understand later.
@@ -74,7 +75,7 @@ Note:
 
 # This talk will
 
-- Shine a liitle light on Elm and why I enjoy using it
+- Shine a little light on Elm and why I enjoy using it
 
 ---
 
@@ -88,11 +89,8 @@ Note:
 - As we asked our browsers to handle interpreting more and more complex code - our code turned to unpredictable, unmaintainable, magic, held together by sticky tape...
 - Frameworks started popping up, and build tools and new syntaxes that would make the code easier to use in the way we wanted to - and transpilers.
 
----
-
+---?image=elm-lang-home.png&position=top
 # So what is Elm?
-
-Image elm home page 'delightful language'
 
 Note:
 - Elm is a language based on functional programming principles that compiles to Javascript and defines an architecture that makes rapid prototyping, evolving and scaling web apps and maintaining a single source of truth easy.
