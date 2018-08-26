@@ -23,10 +23,10 @@ Note:
 
 @ul
 
-- Optimistic
+- Generally optimistic
 - Learn by doing
 - I @fa[heart] javascript
-- Open source, open minded
+- Believe in open source, open minded
 
 @ulend
 
@@ -40,14 +40,13 @@ Note:
 ---
 
 # About you
-## (Assumptions I'm making about you and your motivations)
+## (Assumptions I'm making about you)
 @ul
 
-- Fun
-- Safety
-- Efficiency
-- Trust
-- New tech is fun - but old tech is safer
+- Don't mind having fun
+- Value safety & efficiency
+- Want to deserve trust
+- Might think new tech is fun - but old tech is safer
 
 @ulend
 
@@ -89,7 +88,7 @@ Note:
 - As we asked our browsers to handle interpreting more and more complex code - our code turned to unpredictable, unmaintainable, magic, held together by sticky tape...
 - Frameworks started popping up, and build tools and new syntaxes that would make the code easier to use in the way we wanted to - and transpilers.
 
----?image=elm-lang-home.png&position=top
+---?image=elm-lang-home.png&size=auto 30%&position=top
 # So what is Elm?
 
 Note:
