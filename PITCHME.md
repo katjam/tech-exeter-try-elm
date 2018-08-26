@@ -1,13 +1,14 @@
----?image=elm-logo.png&size=auto 40%&position=top&padding=20px
+---?image=elm-logo.svg&size=auto 40%&position=top&padding=20px
 # Try Elm
 No runtime errors. Safe and fun refactors!
 
----
-
+---?image=neontribe-logo&size=auto 40%&position=top&padding=20px
 # About me
 
 - Senior web "engineer" at Neontribe
+@ul
 - Not a frontend developer
+@ulend
 
 Note:
 
