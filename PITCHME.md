@@ -1,8 +1,8 @@
----?image=elm-logo.svg&size=auto 35%&position=top&padding=20px
+---?image=elm-logo.svg&size=auto 32%&position=top&padding=20px
 # Try Elm
 No runtime errors. Safe and fun refactors!
 
----?image=neontribe-logo.png&size=auto 35%&position=bottom&padding=20px
+---?image=neontribe-logo.png&size=auto 32%&position=top&padding=20px
 # About me
 @ul
 - Senior web "engineer" at Neontribe
@@ -40,7 +40,7 @@ Note:
 ---
 
 # About you
-## (Assumptions I'm making about you)
+## (Assumptions I'm making)
 @ul
 
 - Don't mind having fun
@@ -88,7 +88,7 @@ Note:
 - As we asked our browsers to handle interpreting more and more complex code - our code turned to unpredictable, unmaintainable, magic, held together by sticky tape...
 - Frameworks started popping up, and build tools and new syntaxes that would make the code easier to use in the way we wanted to - and transpilers.
 
----?image=elm-lang-home.png&size=auto 30%&position=top
+---?image=elm-lang-home.png&size=auto 32%&position=top
 # So what is Elm?
 
 Note:
