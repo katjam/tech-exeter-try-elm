@@ -60,9 +60,11 @@ Note:
 
 # This talk will not
 
+@ul
 - Teach you functional programming concepts
 - Compare Elm vs React, Vue and Angular
 - Discuss the newly released Elm 0.19 (Big yay! to Evan)
+@ulend
 
 Note:
 - Loads of people can do that much better than I can - and one of the awesome things about elm is that you can forget that it's functional. Do first - understand later.
@@ -82,7 +84,7 @@ Note:
 # Our (fun) problem
 
 - Building user interfaces for amazing APIs
-- Our tools (sadly not lego) - maybe some logos here?
+- Our tools = code - languages, libraries, frameworks, transpilers, editors/ ides (sadly not lego)
 
 Note:
 - We're lucky enough to be in a rapidly evolving industry.
@@ -97,6 +99,7 @@ Note:
 @ul
 - Uses ML style syntax.
 - Based on functional programming principles
+- Statically typed
 - Compiles to Javascript
 - More than a language, it defines an architecture that helps us write good code
 @ulend
@@ -136,6 +139,28 @@ Note:
 
 ---
 # Example
+
+```elm
+import Html exposing (..)
+import Html.events exposing (onClick)
+
+-- MODEL
+
+type alias Model - {rocks: Int}
+
+model: Model
+model = { rocks = 9 }
+
+-- UPDATE
+
+type Msg = Reset
+
+```
+
+@[1-2](Import from libraries and expose only the bits you need)
+@[3-9](Our Model)
+@[10-12](Our Update functions)
+@[13-15](Our View)
 
 +++
 # Confident refactor
