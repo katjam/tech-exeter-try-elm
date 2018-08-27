@@ -146,29 +146,34 @@ import Html.events exposing (onClick)
 
 -- MODEL
 
-type alias Model = {rocks: Int}
+type alias Model =
+    { rocks: Int }
 
 model: Model
-model = { rocks = 9 }
+model =
+    { rocks = 9 }
 
 -- UPDATE
 
-type Msg = Reset
+type Msg
+    = Reset
 
 update : Msg -> Model -> Model
 update msg model =
-  case msg of
-    Reset -> { model | rocks = 0 }
+    case msg of
+        Reset ->
+          { model | rocks = 0 }
 
 -- VIEW
 
 view : Model -> Html Msg
 view model =
-  div []
-    [ h1 [] [ text "Hello Exeter!" ]
-    , h2 [] [ text "Let's count some rocks" ]
-    , button [ onClick Reset ] [ text "reset" ]
-    ]
+    div []
+        [ h1 [] [ text "Hello Exeter!" ]
+        , h2 [] [ text "Let's count some rocks" ]
+        , div [] [ text (toString model.rocks) ]
+        , button [ onClick Reset ] [ text "reset" ]
+        ]
 
 main =
   Html.beginnerProgram { model = model, view = view, update = update }
@@ -178,8 +183,8 @@ main =
 @[1-2](Import from libraries and expose only the bits you need)
 @[3-9](Our Model)
 @[10-18](Our Update functions)
-@[19-29](Our View)
-@[30-31](The magic!)
+@[19-30](Our View)
+@[31-34](The magic!)
 
 +++
 # Confident refactor
