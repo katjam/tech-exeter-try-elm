@@ -67,6 +67,7 @@ Note:
 Note:
 - Loads of people can do that much better than I can - and one of the awesome things about elm is that you can forget that it's functional. Do first - understand later.
 - I won't make excuses or justifications about the size of the Elm community
+- Note about 0.19 - some things have changed - but my examples will use 0.18 e.g. elm-lang packages now elm and elm-package.json is now elm.json
 - If you are interested in any of those, come and see me later - I can point you towards some resources.
 
 
@@ -78,8 +79,10 @@ Note:
 
 ---
 
-# First some background
-## Building a user interface
+# Our (fun) problem
+
+- Building user interfaces for amazing APIs
+- Our tools (sadly not lego) - maybe some logos here?
 
 Note:
 - We're lucky enough to be in a rapidly evolving industry.
@@ -91,15 +94,76 @@ Note:
 ---?image=elm-lang-home.png&size=auto 32%&position=top
 # So what is Elm?
 
+@ul
+- Uses ML style syntax.
+- Based on functional programming principles
+- Compiles to Javascript
+- More than a language, it defines an architecture that helps us write good code
+@ulend
+
 Note:
 - Elm is a language based on functional programming principles that compiles to Javascript and defines an architecture that makes rapid prototyping, evolving and scaling web apps and maintaining a single source of truth easy.
 - Describes itself as: A delightful language for reliable webapps.
 - And claims to "Generate JavaScript with great performance and no runtime exceptions." It sounds too good to be true.... but I am going to demonstrate that you can write type safe & functional without a phd in category theory or a lisp in sight.
 - Instead of listing the benefits - let's see how it works.
 
+---
+# Anatomy of an Elm app
+Note:
+- update function like a react reducer
+- Tiny bit about pure functions - they return a typed value (total vs partial)
+
++++
+# Elements
+
+Note:
+- html nodes - e.g. button [] []
+-
++++
+# Syntax and Format
+
+Note:
+- Show the code looking like js then - Show how elm-format snaps into shape... so if it takes your muscle memory a while to retrain - don't worry. Like prettier but without the arguments over spaces, tabs and semicolons. It also means the machine can parse with confidence.
+
+---
+# Get started
+- Tooling elm make and elm reactor
+- Create Elm App - webpack
+- debugger import/ export
+
+Note:
+- Export history with bug and import into another browser (QA team)
+
+---
+# Example
+
++++
+# Confident refactor
++++
+# Impossible states impossible 
+# 0 runtime error
+- Show minor typo example as js runtime error
++++
+# Compiler lead development
+- Start by adding new feature - follow compiler messages
++++
+# Using union types
+Note:
+- Slug = Slug not Slug = string
++++
+# Easy to expose good API
 +++
 
+---
+Trade off between power & what we can know
+Elm package (diff versions to show changes)
+Start small - convert one part of your app to elm and keep building
+
+---
+# Elm community
+- Elm town, meetups, slack, discourse, great docs, conferences
+- Great for learning - in fact I'm working on a course for primary school children
+- Easy for non-programmers - e.g. scientists needing visualisations
 
 
-#
 [Production code](https://github.co.uk/katjam/elm-pic-story-site)
