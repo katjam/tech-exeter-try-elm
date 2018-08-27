@@ -177,8 +177,9 @@ main =
 
 @[1-2](Import from libraries and expose only the bits you need)
 @[3-9](Our Model)
-@[10-12](Our Update functions)
-@[13-15](Our View)
+@[10-17](Our Update functions)
+@[18-27](Our View)
+@[28-29](The magic!)
 
 +++
 # Confident refactor
