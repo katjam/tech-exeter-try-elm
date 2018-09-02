@@ -3,50 +3,56 @@
 No runtime errors. Safe and fun refactors!
 
 ---?image=neontribe-logo.png&size=auto 32%&position=top&padding=20px
-# Katja Mordaunt
+## Katja Mordaunt
 
 Note:
 
-- I've been working with web technologies for 10 years - but really I'm less of a computer scientist - more a person who just likes making stuff that might make someone's life a little more enjoyable - and I'm using code to do that.  
+- Senior developer at Neontribe. Been working with web technologies for 10 years - but less computer scientist - more a person who just likes making stuff - and using code to do that.  
 - These days a lot of us cover many parts of the stack to lesser or greater extent. I've never thought of myself as a frontend dev - because I can't do visual design - and the bulk of my coding experience is in writing backends and APIs in php.
-- But - the lines are blurring
 
 
 +++
 
+## I like making stuff that helps
 
-# I like making stuff that helps
+IMAGE - piles of help
 
-Notes:
+Note:
 
 - Generally optimistic
-- Learn by doing
-- Believe in open source, open minded
-- I @fa[heart] javascript
-
 - I don't mind who or what it helps as long as the help goes towards lessening the overall help needed in the universe - giving help to bad or giving bad help creates the need for more and more help to be given.
+
+- Learn by doing
 - In practice that means - I like to jump right in try first and fail later... then try again
+
+- I @fa[heart] javascript
 - It would surprise my colleagues to hear that - So explain The runnnig of javascript - xxx the equality, freedom it creates xxx... I do not like reading or writing javascript.
+
+- Believe in open source, open minded
 - Collaboration and sharing for progress and inclusion
 
 ---
 
-# About you
-## (Assumptions I'm making)
+## Assumptions I'm making about you
 
-- You might not share the same approah to codeing as me.
-- Maybe you like to plan a whole structure instead of jumping in.
-- Probably share some of the same goals...
-
+@ul
 - Don't mind having fun
 - Value safety & efficiency
-- You want your clients to trust you for good reason
+- You want your clients' to trust to be well earned
 - Might think new tech is fun - but old tech is safer
+@ulend
 
+
+Note:
+
+- You might not share the same approah to coding as me.
+- Maybe you like to plan a whole structure instead of jumping in.
+- But - you probably share some of the same goals...
+- START LIST end
 
 ---
 
-# This talk will not
+## This talk will not
 
 @ul
 - Teach you functional programming concepts
@@ -63,15 +69,15 @@ Note:
 
 +++
 
-# This talk will
+## This talk will
 
 - Shine a little light on Elm and why I enjoy using it
 
 ---
 
-# Our (fun) problem
+## Our (fun) problem
 
-LOGOs for all the gone by the wayside. Any of these look familiar. None of these live up to lego standards.
+IMAGE logos for all the gone by the wayside. Any of these look familiar. None of these live up to lego standards.
 
 Note:
 - Building user interfaces for amazing APIs
@@ -84,11 +90,15 @@ Note:
 - Frameworks started popping up, and build tools and new syntaxes that would make the code easier to use in the way we wanted to - and transpilers.
 
 ---?image=elm-lang-home.png&size=auto 32%&position=top
+
+Note:
+
 - Describes itself as: A delightful language for reliable webapps.
 - And claims to "Generate JavaScript with great performance and no runtime exceptions." It sounds too good to be true.... but I am going to demonstrate that you can write type safe & functional without a phd in category theory or a lisp in sight.
 
 +++
-A couple of things you know before we get started.. so things don't seem scary.
+
+### A couple of things you know before we get started.. so things don't seem scary.
 
 @ul
 - Uses ML style syntax.
@@ -96,7 +106,6 @@ A couple of things you know before we get started.. so things don't seem scary.
 - Statically typed
 - Compiles to Javascript
 - More than a language, it defines an architecture that helps us write good code
-
 @ulend
 
 Note:
@@ -106,6 +115,9 @@ Note:
 ---
 IMAGE or flow
 # Anatomy of an Elm app
+
+CODE - beginner programme highlight model then update then view
+
 Note:
 - model - your 'state'
 - update function like a react redux reducer - unidirectional dataflow 
@@ -115,15 +127,31 @@ Note:
 +++
 # Elements
 
+CODE - function definition, function call.
+
 Note:
-- html nodes - e.g. button [] []
 - functions
-- Tiny bit about pure functions - they return a typed value (total vs partial). In Eml partially applied functions return Maybe
+- MAYBE NOT (Tiny bit about pure functions - they return a typed value (total vs partial). In Elm partially applied functions return Maybe)
+
 +++
 # Syntax and Format
 
+CODE: some html - formated like traditional html 
+CODE: snap to  elm-format 
+
+CODE - with these as capitons?
+@ul
+- elm-format standard defined by elm
+- machine can parse with confidence
+- no one forgets the commas
+- don't need trailing commas to eliminate bad diffs
+@ulend
+
+- html nodes - e.g. button [] []
+
 Note:
-- Show the code looking like js then - Show how elm-format snaps into shape... so if it takes your muscle memory a while to retrain - don't worry. Like prettier but without the arguments over spaces, tabs and semicolons. It also means the machine can parse with confidence.
+- Elm primarily designed for making UIs so not surprising that there is good support for what ew traditionally think of as html elements - in elm they are nodes.
+- Show the code looking like js then - Show how elm-format snaps into shape... so if it takes your muscle memory a while to retrain - don't worry. Like prettier but without the arguments over spaces, tabs and semicolons.
 
 ---
 # Example
@@ -136,11 +164,11 @@ import Html.events exposing (onClick)
 -- MODEL
 
 type alias Model =
-    { rocks: Int }
+    { bricks: Int }
 
 model: Model
 model =
-    { rocks = 9 }
+    { bricks = 9 }
 
 -- UPDATE
 
@@ -151,7 +179,7 @@ update : Msg -> Model -> Model
 update msg model =
     case msg of
         Reset ->
-          { model | rocks = 0 }
+          { model | bricks = 0 }
 
 -- VIEW
 
@@ -159,8 +187,8 @@ view : Model -> Html Msg
 view model =
     div [ style [("padding-left", "2em")] ]
         [ h1 [] [ text "Hello Exeter!" ]
-        , h2 [] [ text "Let's count some rocks" ]
-        , div [] [ text (toString model.rocks) ]
+        , h2 [] [ text "Let's count some bricks" ]
+        , div [] [ text (toString model.bricks) ]
         , button [ onClick Reset ] [ text "reset" ]
         ]
 
@@ -180,7 +208,7 @@ main =
 +++
 # Impossible states impossible 
 # 0 runtime error
-- Show minor typo example as js runtime error
+- Show minor typo example as js runtime error colour vs color! organisation vs. organization.
 +++
 # Compiler lead development
 - Start by adding new feature - follow compiler messages
@@ -188,6 +216,8 @@ main =
 # Using union types
 Note:
 - Slug = Slug not Slug = string
+- So later when slug changes to string + referrer string... compiler will tell us in all the places we used it.
+-
 +++
 # Easy to expose good API
 +++
