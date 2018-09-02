@@ -3,11 +3,7 @@
 No runtime errors. Safe and fun refactors!
 
 ---?image=neontribe-logo.png&size=auto 32%&position=top&padding=20px
-# About me
-@ul
-- Senior web "engineer" at Neontribe
-- Not a frontend developer
-@ulend
+# Katja Mordaunt
 
 Note:
 
@@ -21,16 +17,12 @@ Note:
 
 # I like making stuff that helps
 
-@ul
+Notes:
 
 - Generally optimistic
 - Learn by doing
-- I @fa[heart] javascript
 - Believe in open source, open minded
-
-@ulend
-
-Note:
+- I @fa[heart] javascript
 
 - I don't mind who or what it helps as long as the help goes towards lessening the overall help needed in the universe - giving help to bad or giving bad help creates the need for more and more help to be given.
 - In practice that means - I like to jump right in try first and fail later... then try again
@@ -41,20 +33,16 @@ Note:
 
 # About you
 ## (Assumptions I'm making)
-@ul
+
+- You might not share the same approah to codeing as me.
+- Maybe you like to plan a whole structure instead of jumping in.
+- Probably share some of the same goals...
 
 - Don't mind having fun
 - Value safety & efficiency
-- Want to deserve trust
+- You want your clients to trust you for good reason
 - Might think new tech is fun - but old tech is safer
 
-@ulend
-
-Note:
-
-- You might not share the same approah to codeing as me.
-- Hopefully you are more responsible.
-- Probably share some of the same goals...
 
 ---
 
@@ -63,7 +51,7 @@ Note:
 @ul
 - Teach you functional programming concepts
 - Compare Elm vs React, Vue and Angular
-- Discuss the newly released Elm 0.19 (Big yay! to Evan)
+- Discuss the newly released Elm 0.19
 @ulend
 
 Note:
@@ -83,10 +71,12 @@ Note:
 
 # Our (fun) problem
 
+LOGOs for all the gone by the wayside. Any of these look familiar. None of these live up to lego standards.
+
+Note:
 - Building user interfaces for amazing APIs
 - Our tools = code - languages, libraries, frameworks, transpilers, editors/ ides (sadly not lego)
 
-Note:
 - We're lucky enough to be in a rapidly evolving industry.
 - A few years ago we'd have written html, css and a bit of jquery
 - Maybe used some templating
@@ -94,7 +84,11 @@ Note:
 - Frameworks started popping up, and build tools and new syntaxes that would make the code easier to use in the way we wanted to - and transpilers.
 
 ---?image=elm-lang-home.png&size=auto 32%&position=top
-# So what is Elm?
+- Describes itself as: A delightful language for reliable webapps.
+- And claims to "Generate JavaScript with great performance and no runtime exceptions." It sounds too good to be true.... but I am going to demonstrate that you can write type safe & functional without a phd in category theory or a lisp in sight.
+
++++
+A couple of things you know before we get started.. so things don't seem scary.
 
 @ul
 - Uses ML style syntax.
@@ -102,26 +96,29 @@ Note:
 - Statically typed
 - Compiles to Javascript
 - More than a language, it defines an architecture that helps us write good code
+
 @ulend
 
 Note:
 - Elm is a language based on functional programming principles that compiles to Javascript and defines an architecture that makes rapid prototyping, evolving and scaling web apps and maintaining a single source of truth easy.
-- Describes itself as: A delightful language for reliable webapps.
-- And claims to "Generate JavaScript with great performance and no runtime exceptions." It sounds too good to be true.... but I am going to demonstrate that you can write type safe & functional without a phd in category theory or a lisp in sight.
 - Instead of listing the benefits - let's see how it works.
 
 ---
+IMAGE or flow
 # Anatomy of an Elm app
 Note:
-- update function like a react reducer
-- Tiny bit about pure functions - they return a typed value (total vs partial)
+- model - your 'state'
+- update function like a react redux reducer - unidirectional dataflow 
+- view - display
+- subscriptions for outside events like time but not this example
 
 +++
 # Elements
 
 Note:
 - html nodes - e.g. button [] []
--
+- functions
+- Tiny bit about pure functions - they return a typed value (total vs partial). In Eml partially applied functions return Maybe
 +++
 # Syntax and Format
 
@@ -129,19 +126,11 @@ Note:
 - Show the code looking like js then - Show how elm-format snaps into shape... so if it takes your muscle memory a while to retrain - don't worry. Like prettier but without the arguments over spaces, tabs and semicolons. It also means the machine can parse with confidence.
 
 ---
-# Get started
-- Tooling elm make and elm reactor
-- Create Elm App - webpack
-- debugger import/ export
-
-Note:
-- Export history with bug and import into another browser (QA team)
-
----
 # Example
 
 ```elm
 import Html exposing (..)
+import Html.Attributes exposing (style)
 import Html.events exposing (onClick)
 
 -- MODEL
@@ -168,7 +157,7 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div []
+    div [ style [("padding-left", "2em")] ]
         [ h1 [] [ text "Hello Exeter!" ]
         , h2 [] [ text "Let's count some rocks" ]
         , div [] [ text (toString model.rocks) ]
@@ -202,6 +191,17 @@ Note:
 +++
 # Easy to expose good API
 +++
+
+
+---
+# Get started
+- Tooling elm make and elm reactor
+- Create Elm App - webpack
+- debugger import/ export
+
+Note:
+- Export history with bug and import into another browser (QA team)
+
 
 ---
 Trade off between power & what we can know
