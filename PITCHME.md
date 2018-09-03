@@ -79,6 +79,13 @@ Note:
 
 IMAGE logos for all the gone by the wayside. Any of these look familiar?
 
+<p float="left">
+  <img src="/bower-grunt-yeoman.png" width="100" />
+  <img src="/handlebars_logo.png" width="100" /> 
+  <img src="/mustache-js.png" width="100" />
+  <img src="coffeescript.png" width="100" />
+</p>
+
 handlebars, mustache, coffeescript, grunt, bower, angular 1.0, backbone, polymer, ember
 
 Note:
