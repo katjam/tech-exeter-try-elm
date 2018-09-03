@@ -8,7 +8,7 @@ No runtime errors. Safe and fun refactors!
 Note:
 
 - Senior developer at Neontribe. Been working with web technologies for 10 years - but less computer scientist - more a person who just likes making stuff - and using code to do that.  
-- These days a lot of us cover many parts of the stack to lesser or greater extent. I've never thought of myself as a frontend dev - because I can't do visual design - and the bulk of my coding experience is in writing backends and APIs in php.
+- These days a lot of us cover many parts of the stack. I've never thought of myself as a frontend dev - because I can't do visual design - and the bulk of my coding experience is in writing backends and APIs in php.
 
 
 +++
@@ -26,7 +26,7 @@ Note:
 - In practice that means - I like to jump right in try first and fail later... then try again
 
 - I @fa[heart] javascript
-- It would surprise my colleagues to hear that - So explain The runnnig of javascript - xxx the equality, freedom it creates xxx... I do not like reading or writing javascript.
+- It would surprise my colleagues to hear that - So explain The runnnig of javascript - xxx the equality, freedom it creates by a core of universally supported standard on majority of our devices xxx... I do not like reading or writing javascript.
 
 - Believe in open source, open minded
 - Collaboration and sharing for progress and inclusion
@@ -77,7 +77,9 @@ Note:
 
 ## Our (fun) problem
 
-IMAGE logos for all the gone by the wayside. Any of these look familiar. None of these live up to lego standards.
+IMAGE logos for all the gone by the wayside. Any of these look familiar?
+
+handlebars, mustache, coffeescript, grunt, bower, angular 1.0, backbone, polymer, ember
 
 Note:
 - Building user interfaces for amazing APIs
@@ -101,7 +103,7 @@ Note:
 ### A couple of things you know before we get started.. so things don't seem scary.
 
 @ul
-- Uses ML style syntax.
+- Uses ML style syntax
 - Based on functional programming principles
 - Statically typed
 - Compiles to Javascript
@@ -154,7 +156,15 @@ Note:
 - Show the code looking like js then - Show how elm-format snaps into shape... so if it takes your muscle memory a while to retrain - don't worry. Like prettier but without the arguments over spaces, tabs and semicolons.
 
 ---
-# Example
+## Quick scenaro
+
+IMAGE - client with button presser.
+ELM coder no problem. JS getting - which framework to choose?
+
+Note: We'll follow the elm project. leave js up to your imagination.
+
++++
+# Awesome brick counter!
 
 ```elm
 import Html exposing (..)
@@ -197,11 +207,11 @@ main =
 
 ```
 
-@[1-2](Import from libraries and expose only the bits you need)
-@[3-9](Our Model)
-@[10-18](Our Update functions)
-@[19-30](Our View)
-@[31-34](The magic!)
+@[1-4](Import from libraries and expose only the bits you need)
+@[5-11](Our Model)
+@[12-19](Our Update functions)
+@[20-32](Our View)
+@[33-35](The magic!)
 
 +++
 # Confident refactor
