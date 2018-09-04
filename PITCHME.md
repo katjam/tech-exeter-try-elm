@@ -80,9 +80,9 @@ Note:
 IMAGE logos for all the gone by the wayside. Any of these look familiar?
 
 ![alt-text-1](bower-grunt-yeoman.png "Bower Grunt Yeoman") ![alt-text-2](handlebars_logo.png "Handlebars")
-![](mustache-js.png) ![](coffeescript.png)
+![](mustache-js.png) ![](coffeescript.png) !![](gulp.png)
 
-handlebars, mustache, coffeescript, grunt, bower, angular 1.0, backbone, polymer, ember
+angular 1.0, backbone, polymer, ember, postcss, css modules
 
 Note:
 - Building user interfaces for amazing APIs
@@ -130,7 +130,34 @@ Note:
 - subscriptions for outside events like time but not this example
 
 +++
-# Elements
+# Syntax
+
+```elm
+"Hello " ++ "Exeter!"
+> Hello Exeter!
+
+5 / 2
+> 2.5
+
+5 // 2
+> 2
+
+addTwo : Int -> Int -> String
+addTwo firstNum secondNum =
+  toString firstNum ++ ' + ' ++ toString secondNum ++ ' = ' ++ toString firstNum + secondNum
+
+addTwo 2 3
+> 2 + 3 = 5
+
+
+```
+@[1-2](Concatenate strings with `++`)
+@[4-8](Division can be floating point / or integer //)
+@[10-12](Define a function that takes 2 integers and returns a string)
+@[10](The type annotation. Elm will figure out the types but it's nice to be explicit)
+@[11-12](The function definition)
+@[13](Call the function)
+@[14](The result is a string)
 
 CODE - function definition, function call.
 
@@ -139,7 +166,7 @@ Note:
 - MAYBE NOT (Tiny bit about pure functions - they return a typed value (total vs partial). In Elm partially applied functions return Maybe)
 
 +++
-# Syntax and Format
+# Format
 
 CODE: some html - formated like traditional html 
 CODE: snap to  elm-format 
