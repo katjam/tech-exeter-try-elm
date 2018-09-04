@@ -144,7 +144,7 @@ Note:
 
 addTwo : Int -> Int -> String
 addTwo a b =
-    toString a ++ "+" ++ toString b ++ "=" ++ toString (a + b)
+  toString a ++ "+" ++ toString b ++ "=" ++ toString (a + b)
 
 addTwo 2 3
 > 2+3=5
