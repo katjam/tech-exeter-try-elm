@@ -147,7 +147,7 @@ addTwoString x y =
   toString x ++ "+" ++ toString y ++ "=" ++ toString (x + y)
 
 addTwoString 2 3
-> 2+3=5
+> "2+3=5"
 
 if True then "yes" else "no"
 > "yes"
@@ -172,7 +172,7 @@ event.name
 > "Tech Exeter Conference"
 
 { event | attendees = 250 }
-> { attendees = 250, name = "Tech Exeter Conference" }
+> { attendees = 250, name = "TechExeter Conference" }
 ```
 
 @[1-2](Concatenate strings with `++`)
@@ -184,10 +184,10 @@ event.name
 @[15](The result is a string)
 @[17-18](if then else has 2 branches determined by boolean)
 @[20-26](Lists must contain items of same type)
-@[27-28](Tuples are fixed in number of values by can be mixed types)
-@[30-36](Records are like objects but safe)
-@[32-37](Get value with dot or as a function)
-@[38-39](Update a record)
+@[28-29](Tuples are fixed in number of values by can be mixed types)
+@[31](Records are like objects but safe)
+@[33-37](Get value with dot or as a function)
+@[39-40](Update a record)
 
 Note:
 - Double quotes for strings single for characters
