@@ -143,27 +143,23 @@ Note:
 > 2
 
 addTwo : Int -> Int -> String
-addTwo firstNum secondNum =
-  toString firstNum ++ ' + ' ++ toString secondNum ++ ' = ' ++ toString firstNum + secondNum
+addTwo a b =
+    toString a ++ "+" ++ toString b ++ "=" ++ toString (a + b)
 
 addTwo 2 3
-> 2 + 3 = 5
-
-
+> 2+3=5
 ```
+
 @[1-2](Concatenate strings with `++`)
 @[4-8](Division can be floating point / or integer //)
 @[10-12](Define a function that takes 2 integers and returns a string)
-@[10](The type annotation. Elm will figure out the types but it's nice to be explicit)
+@[10](The type annotation)
 @[11-12](The function definition)
-@[13](Call the function)
-@[14](The result is a string)
-
-CODE - function definition, function call.
+@[14](Call the function)
+@[15](The result is a string)
 
 Note:
-- functions
-- MAYBE NOT (Tiny bit about pure functions - they return a typed value (total vs partial). In Elm partially applied functions return Maybe)
+- Double quotes for strings single for characters
 
 +++
 # Format
