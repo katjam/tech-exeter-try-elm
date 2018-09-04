@@ -163,13 +163,13 @@ List.length names
 myFailureTuple = (False, "Oh no!", HomePage)
 mySuccessTuple = (True, "Yay!", NextPage)
 
-event = { attendees = 2500, name = "Tech Exeter Conference" }
+event = { attendees = 2500, name = "TechExeter Conference" }
 
 event.name
-> "Tech Exeter Conference"
+> "TechExeter Conference"
 
 .name event
-> "Tech Exeter Conference"
+> "TechExeter Conference"
 
 { event | attendees = 250 }
 > { attendees = 250, name = "TechExeter Conference" }
@@ -184,7 +184,7 @@ event.name
 @[15](The result is a string)
 @[17-18](if then else has 2 branches determined by boolean)
 @[20-26](Lists must contain items of same type)
-@[28-29](Tuples are fixed in number of values by can be mixed types)
+@[28-29](Tuples are fixed in number of values but can be mixed types)
 @[31](Records are like objects but safe)
 @[33-37](Get value with dot or as a function)
 @[39-40](Update a record)
@@ -195,7 +195,7 @@ Note:
 - No undefined fields. Can't ask for a field not defined. No self or this for recursive records.
 
 +++
-# Format
+# Html?
 
 CODE: some html - formated like traditional html 
 CODE: snap to  elm-format 
