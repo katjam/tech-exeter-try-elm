@@ -225,9 +225,17 @@ div [ class "list-of-stuff" ]
     ]
 ]
 ```
-@ul
 ![](list-of-stuff.png)
+@ul
+- button [] []
+- a [] []
+- span [] []
 @ulend
+
+Note:
+ - and buttons with handlers
+ - and links with hrefs
+ - and good old spans
 
 +++
 ## Html?
