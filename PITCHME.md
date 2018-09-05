@@ -380,18 +380,20 @@ Note:
 
 ---
 ## Cool things for free
-- Easy to get started - tooling elm make and elm reactor
-- Create Elm App - webpack
+- Tooling elm-make and elm-reactor or create-elm-app or webpack
+- Ellie - live online editor to share and compile code
 - debugger import/ export
 - tiny bundle sizes
 - no accidental breaking changes
+- Escape hatches to existing js code and libraries
 
 Note:
+- You can build projects how you are used to - or start with elm tools and get more complicated when you need to.
+- Share funcitoning code snippets online with Ellie
 - Export history with bug and import into another browser (QA team)
-- Trade off between power & what we can know
-- Elm package (diff versions to show changes)
-- Start small - convert one part of your app to elm and keep building
-- enforced semver
+- Because 'function level dead code elimination'
+- Elm package (diff versions to show changes) - enforced semantic versioning
+- Start small - convert one part of your app to elm and keep building - Warning - the js isn't safe
 
 ---
 ## Join the Elm community
