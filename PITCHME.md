@@ -40,7 +40,7 @@ Note:
 @ul
 - Don't mind having fun
 - Value safety & efficiency
-- You want your clients' to trust to be well earned
+- You want your clients' trust to be well earned
 - Might think new tech is fun - but old tech is safer
 @ulend
 
@@ -209,10 +209,29 @@ div [ class "list-of-stuff" ]
     ]
 ]
 ```
+
++++
+## Html?
+
+```
+div [ class "list-of-stuff" ]
+[
+  h2 [] [ text "Short list of stuff"],
+  ul []
+    [
+      li [] [ text "Item one"],
+      li [] [ text "Item two"],
+      li [] [ text "Item three"]
+    ]
+]
+```
 @ul
 ![](list-of-stuff.png)
 @ulend
 
++++
+## Html?
+### Using elm-format
 
 ```
 div [ class "list-of-stuff" ]
@@ -235,6 +254,7 @@ div [ class "list-of-stuff" ]
 Note:
 - Show the code looking like js then - Show how elm-format snaps into shape... so if it takes your muscle memory a while to retrain - don't worry. Like prettier but without the arguments over spaces, tabs and semicolons.
 - Elm primarily designed for making UIs so not surprising that there is good support for what we traditionally think of as html elements - in elm they are nodes.
+
 
 ---
 ## Quick scenario
@@ -311,8 +331,6 @@ Note:
 +++
 ## Easy to expose good API
 - we only need the display, not the logic.
-+++
-
 
 ---
 ## Get started
