@@ -11,7 +11,7 @@ Note:
 
 - Senior developer at Neontribe. Been working with web technologies for 10 years - but less computer scientist - more a person who just likes making stuff - and using code to do that.  
 - Never thought of myself as a frontend dev - because I can't do visual design - most of my coding experience is in writing backends and APIs in php. But as more and more logic handled in browser - lines are blurring.
-
+- Last year I ended up leading a project that turned out not to need a backend... so I chose Elm
 
 +++
 
