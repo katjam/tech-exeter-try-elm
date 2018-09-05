@@ -98,6 +98,7 @@ Note:
 ---
 
 ![](elm-lang-home.png)
+
 ![](not-functional.png)
 
 Note:
