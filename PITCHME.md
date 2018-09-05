@@ -1,6 +1,8 @@
 # Try Elm
-![](elm-logo.svg)
+![](elm-logo.png)
 No runtime errors. Safe and fun refactors!
+
+---
 
 ## Katja Mordaunt
 ![](neontribe-logo.png)
