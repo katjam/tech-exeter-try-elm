@@ -79,11 +79,9 @@ Note:
 
 ## Our (fun) problem
 
-IMAGE logos for all the gone by the wayside. Any of these look familiar?
+Any of these look familiar?
 
 ![alt-text-1](js-stuff.png)
-
-angular 1.0, backbone, polymer, ember, postcss, css modules
 
 Note:
 - Building user interfaces for amazing APIs
@@ -104,7 +102,7 @@ Note:
 
 +++
 
-### A couple of things you know before we get started.. so things don't seem scary.
+### A few things to know before we get started...
 
 @ul
 - Uses ML style syntax
