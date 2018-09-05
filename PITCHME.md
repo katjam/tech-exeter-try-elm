@@ -81,8 +81,7 @@ Note:
 
 IMAGE logos for all the gone by the wayside. Any of these look familiar?
 
-![alt-text-1](bower-grunt-yeoman.png "Bower Grunt Yeoman") ![alt-text-2](handlebars_logo.png "Handlebars")
-![](mustache-js.png) ![](coffeescript.png) !![](gulp.png)
+![alt-text-1](js-stuff.png)
 
 angular 1.0, backbone, polymer, ember, postcss, css modules
 
