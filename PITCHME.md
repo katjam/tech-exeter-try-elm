@@ -231,6 +231,8 @@ div [ class "list-of-stuff" ]
 
 ## Html?
 
+divs and headings and lists
+
 ```
 div [ class "list-of-stuff" ]
 [
@@ -244,16 +246,16 @@ div [ class "list-of-stuff" ]
 ]
 
 ```
+...and buttons and links etc
 
 ```
 button [ onClick DoThing ] [ text "Do thing" ]
 a [ href "/my-path" ] [ text "Follow the high road" ]
-span [] [ text "...and you can make your own because they are all instances of node"]
 ```
 
-@[1](and buttons with handlers)
-@[2](and links with hrefs)
-@[3](and good old spans)
+Note:
+- html5 elements fully implemented
+- if you need custom element define using basic dom node
 
 +++
 ## Html?
