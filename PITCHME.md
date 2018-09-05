@@ -95,7 +95,10 @@ Note:
 - As we asked our browsers to handle interpreting more and more complex code - our code turned to unpredictable, unmaintainable, magic, held together by sticky tape...
 - Frameworks started popping up, and build tools and new syntaxes that would make the code easier to use in the way we wanted to - and transpilers.
 
----?image=elm-lang-home.png&size=auto 32%&position=top
+---
+
+![](elm-lang-home.png)
+![](not-functional.png)
 
 Note:
 
@@ -274,7 +277,7 @@ div [ class "list-of-stuff" ]
 
 @ul
 - elm-format -> One agreed standard
-- Mmachine can parse with confidence
+- Machine can parse with confidence
 - No one forgets the commas
 - Don't need trailing commas to eliminate bad diffs
 @ulend
@@ -283,7 +286,6 @@ Note:
 - I lied a liitle - it looks like this.
 - But elm-fromat does that for you... so if it takes your muscle memory a while to retrain - don't worry.
 - Like prettier but without the arguments over spaces, tabs and semicolons.
-- Elm primarily designed for making UIs so not surprising that there is good support for what we traditionally think of as html elements - in elm they are nodes.
 
 
 ---
@@ -403,6 +405,3 @@ Note:
 - Elm town, meetups, slack, discourse, great docs, conferences
 - Great for learning - I'm working on a course for primary school children
 - Easy for non-programmers - e.g. scientists needing visualisations
-
-
-[Production code](https://github.co.uk/katjam/elm-pic-story-site)
