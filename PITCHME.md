@@ -75,13 +75,15 @@ Note:
 
 - Shine a little light on Elm and why I enjoy using it
 
+Image sad js dev happy elm dev
+
 ---
 
 ## Our (fun) problem
 
 Any of these look familiar?
 
-![alt-text-1](js-stuff.png)
+![](js-stuff.png)
 
 Note:
 - Building user interfaces for amazing APIs
@@ -117,8 +119,7 @@ Note:
 - Instead of listing the benefits - let's see how it works.
 
 ---
-IMAGE or flow
-# Anatomy of an Elm app
+## Anatomy of an Elm app
 
 CODE - beginner programme highlight model then update then view
 
@@ -129,7 +130,7 @@ Note:
 - subscriptions for outside events like time but not this example
 
 +++
-# Syntax
+## Syntax
 
 ```elm
 "Hello " ++ "Exeter!"
@@ -194,12 +195,36 @@ Note:
 - No undefined fields. Can't ask for a field not defined. No self or this for recursive records.
 
 +++
-# Html?
+## Html?
 
-CODE: some html - formated like traditional html 
-CODE: snap to  elm-format 
+```
+div [ class "list-of-stuff" ]
+[
+  h2 [] [ text "Short list of stuff"],
+  ul []
+    [
+      li [] [ text "Item one"],
+      li [] [ text "Item two"],
+      li [] [ text "Item three"]
+    ]
+]
+```
+@ul
+![](list-of-stuff.png)
+@ulend
 
-CODE - with these as capitons?
+
+```
+div [ class "list-of-stuff" ]
+    [ h2 [] [ text "Short list of stuff" ]
+    , ul []
+        [ li [] [ text "Item one" ]
+        , li [] [ text "Item two" ]
+        , li [] [ text "Item three" ]
+        ]
+    ]
+```
+
 @ul
 - elm-format standard defined by elm
 - machine can parse with confidence
@@ -207,14 +232,12 @@ CODE - with these as capitons?
 - don't need trailing commas to eliminate bad diffs
 @ulend
 
-- html nodes - e.g. button [] []
-
 Note:
-- Elm primarily designed for making UIs so not surprising that there is good support for what ew traditionally think of as html elements - in elm they are nodes.
 - Show the code looking like js then - Show how elm-format snaps into shape... so if it takes your muscle memory a while to retrain - don't worry. Like prettier but without the arguments over spaces, tabs and semicolons.
+- Elm primarily designed for making UIs so not surprising that there is good support for what we traditionally think of as html elements - in elm they are nodes.
 
 ---
-## Quick scenaro
+## Quick scenario
 
 IMAGE - client with button presser.
 ELM coder no problem. JS getting - which framework to choose?
@@ -222,7 +245,7 @@ ELM coder no problem. JS getting - which framework to choose?
 Note: We'll follow the elm project. leave js up to your imagination.
 
 +++
-# Awesome brick counter!
+## Awesome brick counter!
 
 ```elm
 import Html exposing (..)
@@ -272,44 +295,41 @@ main =
 @[33-35](The magic!)
 
 +++
-# Confident refactor
-+++
-# Impossible states impossible 
-# 0 runtime error
+## Compiler lead development
+### Confident refactor
+### 0 runtime error
 - Show minor typo example as js runtime error colour vs color! organisation vs. organization.
-+++
-# Compiler lead development
 - Start by adding new feature - follow compiler messages
+
 +++
-# Using union types
+## Using union types
+### Impossible states impossible 
 Note:
-- Slug = Slug not Slug = string
-- So later when slug changes to string + referrer string... compiler will tell us in all the places we used it.
--
+- Colour = Colour not Colour = string
+- So later when colour changes to tuple with rgb values... compiler will tell us in all the places we used it.
+
 +++
-# Easy to expose good API
+## Easy to expose good API
+- we only need the display, not the logic.
 +++
 
 
 ---
-# Get started
+## Get started
 - Tooling elm make and elm reactor
 - Create Elm App - webpack
 - debugger import/ export
 
 Note:
 - Export history with bug and import into another browser (QA team)
-
-
----
-Trade off between power & what we can know
-Elm package (diff versions to show changes)
-Start small - convert one part of your app to elm and keep building
+- Trade off between power & what we can know
+- Elm package (diff versions to show changes)
+- Start small - convert one part of your app to elm and keep building
 
 ---
-# Elm community
+## Join the Elm community
 - Elm town, meetups, slack, discourse, great docs, conferences
-- Great for learning - in fact I'm working on a course for primary school children
+- Great for learning - I'm working on a course for primary school children
 - Easy for non-programmers - e.g. scientists needing visualisations
 
 
