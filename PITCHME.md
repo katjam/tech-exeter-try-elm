@@ -244,17 +244,15 @@ div [ class "list-of-stuff" ]
 ]
 ```
 @ul
-- button [] []
-- a [] []
-- span [] []
+- `button [ onClick DoThing ] [ text "Do thing" ]`
+- `a [ href "/my-path" ] [ text "Follow the high road" ]`
+- `span [] [ text "...and you can make your own because they are all instances of node"]`
 @ulend
 
 Note:
  - and buttons with handlers
  - and links with hrefs
  - and good old spans
-
-+++
 
 +++
 ## Html?
