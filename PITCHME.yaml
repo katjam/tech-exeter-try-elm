@@ -1,0 +1,17 @@
+theme : moon
+
+layout : center-right
+
+logo : assets/images/logo.png
+
+theme-override : assets/css/PITCHME.css
+
+transition : none
+
+highlight : ir-black
+
+code-line-numbers : true
+
+charts : true
+
+footnote : "Try Elm - Katja Mordaunt @neontribe.co.uk"
