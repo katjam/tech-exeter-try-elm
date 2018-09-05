@@ -1,14 +1,14 @@
----?image=elm-logo.svg&size=auto 32%&position=top&padding=20px
 # Try Elm
+![](elm-logo.svg)
 No runtime errors. Safe and fun refactors!
 
----?image=neontribe-logo.png&size=auto 32%&position=top&padding=20px
 ## Katja Mordaunt
+![](neontribe-logo.png)
 
 Note:
 
 - Senior developer at Neontribe. Been working with web technologies for 10 years - but less computer scientist - more a person who just likes making stuff - and using code to do that.  
-- These days a lot of us cover many parts of the stack. I've never thought of myself as a frontend dev - because I can't do visual design - and the bulk of my coding experience is in writing backends and APIs in php.
+- Never thought of myself as a frontend dev - because I can't do visual design - most of my coding experience is in writing backends and APIs in php. But as more and more logic handled in browser - lines are blurring.
 
 
 +++
