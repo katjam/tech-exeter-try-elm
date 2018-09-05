@@ -58,7 +58,7 @@ Note:
 
 @ul
 - Teach you functional programming concepts
-- Compare Elm vs React, Vue and Angular
+- Compare Elm with React, Vue and Angular 2.0
 - Discuss the newly released Elm 0.19
 @ulend
 
@@ -260,7 +260,9 @@ div [ class "list-of-stuff" ]
 @ulend
 
 Note:
-- Show the code looking like js then - Show how elm-format snaps into shape... so if it takes your muscle memory a while to retrain - don't worry. Like prettier but without the arguments over spaces, tabs and semicolons.
+- I lied a liitle - it looks like this.
+- But elm-fromat does that for you... so if it takes your muscle memory a while to retrain - don't worry.
+- Like prettier but without the arguments over spaces, tabs and semicolons.
 - Elm primarily designed for making UIs so not surprising that there is good support for what we traditionally think of as html elements - in elm they are nodes.
 
 
@@ -323,11 +325,30 @@ main =
 @[33-35](The magic!)
 
 +++
+## Scenario update!
+
+IMAGE - client wants colour
+ELM coder no problem. JS - ummm ok?
+
+Note:
+- new feature we hadn't considered - never happens in real lige, right?
+
++++
 ## Compiler lead development
 ### Confident refactor
 ### 0 runtime error
-- Show minor typo example as js runtime error colour vs color! organisation vs. organization.
-- Start by adding new feature - follow compiler messages
+
+Note:
+- Start by adding new feature in view - follow compiler messages
+- Show minor typo example as js runtime error colour vs color
++++
+## Scenario update!
+
+IMAGE - client wants better colours - no strings
+ELM coder no problem. JS - uh oh!
+
+Note:
+- data types change - never happens in real life, right?
 
 +++
 ## Using union types
@@ -341,16 +362,19 @@ Note:
 - we only need the display, not the logic.
 
 ---
-## Get started
-- Tooling elm make and elm reactor
+## Cool things for free
+- Easy to get started - tooling elm make and elm reactor
 - Create Elm App - webpack
 - debugger import/ export
+- tiny bundle sizes
+- no accidental breaking changes
 
 Note:
 - Export history with bug and import into another browser (QA team)
 - Trade off between power & what we can know
 - Elm package (diff versions to show changes)
 - Start small - convert one part of your app to elm and keep building
+- enforced semver
 
 ---
 ## Join the Elm community
