@@ -1,3 +1,5 @@
-img {
+.reveal section img {
+  display: block;
+  margin: auto;
   padding: 20px !important;
 }
