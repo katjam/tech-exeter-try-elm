@@ -226,6 +226,23 @@ div [ class "list-of-stuff" ]
 ]
 ```
 ![](list-of-stuff.png)
+
++++
+
+## Html?
+
+```
+div [ class "list-of-stuff" ]
+[
+  h2 [] [ text "Short list of stuff"],
+  ul []
+    [
+      li [] [ text "Item one"],
+      li [] [ text "Item two"],
+      li [] [ text "Item three"]
+    ]
+]
+```
 @ul
 - button [] []
 - a [] []
@@ -236,6 +253,8 @@ Note:
  - and buttons with handlers
  - and links with hrefs
  - and good old spans
+
++++
 
 +++
 ## Html?
@@ -253,10 +272,10 @@ div [ class "list-of-stuff" ]
 ```
 
 @ul
-- elm-format standard defined by elm
-- machine can parse with confidence
-- no one forgets the commas
-- don't need trailing commas to eliminate bad diffs
+- elm-format -> One agreed standard
+- Mmachine can parse with confidence
+- No one forgets the commas
+- Don't need trailing commas to eliminate bad diffs
 @ulend
 
 Note:
