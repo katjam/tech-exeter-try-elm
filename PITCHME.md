@@ -26,8 +26,7 @@ Note:
 
 - Learn by doing
 - In practice that means - I like to jump right in try first and fail later... then try again
-
-- I @fa[heart] javascript
+- I love javascript
 - It would surprise my colleagues to hear that - So explain The runnnig of javascript - xxx the equality, freedom it creates by a core of universally supported standard on majority of our devices xxx... I do not like reading or writing javascript.
 
 - Believe in open source, open minded
@@ -361,7 +360,7 @@ Note:
 ### Confident refactor
 ### 0 runtime error
 
-![](with-colour-list, "That's better")
+![](with-colour-list.png, "That's better")
 
 Note:
 - Start by adding new feature in view - follow compiler messages
@@ -433,6 +432,16 @@ main =
     Html.beginnerProgram { model = model, view = view, update = update }
 
 ```
+@[3](Import Color from core)
+@[48-50](Replace old string values with Color values)
+
++++
+## Oops!
+### I forgot to change the type in the update message
+
+![](with-expecting-color.png)
+
++++
 
 Note:
 - data types change - never happens in real life, right?
