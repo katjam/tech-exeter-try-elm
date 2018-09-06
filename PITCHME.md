@@ -9,26 +9,23 @@ No runtime errors. Safe and fun refactors!
 
 Note:
 
-- Senior developer at Neontribe. Been working with web technologies for 10 years - but less computer scientist - more a person who just likes making stuff - and using code to do that.  
-- Never thought of myself as a frontend dev - because I can't do visual design - most of my coding experience is in writing backends and APIs in php. But as more and more logic handled in browser - lines are blurring.
+- Senior dev at Neontribe. Working with web techn 10 years - not computer scientist/ engineer
+- just like making stuff - use code.  
+- Never thought of myself as a frontend dev - because I can't do visual design - most coding in backends and APIs in php.
 - Last year I ended up leading a project that turned out not to need a backend... so I chose Elm
 
 +++
 
 ## I like making stuff that helps
 
-IMAGE - piles of help
-
 Note:
 
 - Generally optimistic
-- I don't mind who or what it helps as long as the help goes towards lessening the overall help needed in the universe - giving help to bad or giving bad help creates the need for more and more help to be given.
-
 - Learn by doing
-- In practice that means - I like to jump right in try first and fail later... then try again
+- In practice that means - I like to jump right try, fail... then try again
 - I love javascript
-- It would surprise my colleagues to hear that - So explain The runnnig of javascript - xxx the equality, freedom it creates by a core of universally supported standard on majority of our devices xxx... I do not like reading or writing javascript.
-
+- It would surprise my colleagues to hear that - the running of js - equality, freedom it creates by having a core of universally supported standard on majority of our devices
+- I do not like reading or writing javascript
 - Believe in open source, open minded
 - Collaboration and sharing for progress and inclusion
 
@@ -37,10 +34,10 @@ Note:
 ## Assumptions I'm making about you
 
 @ul
-- Don't mind having fun
-- Value safety & efficiency
-- You want your clients' trust to be well earned
-- Might think new tech is fun - but old tech is safer
+- Fun
+- Safety & efficiency
+- Client trust
+- New tech = fun vs. Old tech = safe ??
 @ulend
 
 
@@ -49,7 +46,12 @@ Note:
 - You might not share the same approah to coding as me.
 - Maybe you like to plan a whole structure instead of jumping in.
 - But - you probably share some of the same goals...
-- START LIST end
+- START LIST
+- Don't mind having fun
+- Value safety & efficiency
+- You want your clients' trust to be well earned
+- Might think new tech is fun - but old tech is safer
+- Elm can help with that.
 
 ---
 
@@ -62,10 +64,12 @@ Note:
 @ulend
 
 Note:
-- Loads of people can do that much better than I can - and one of the awesome things about elm is that you can forget that it's functional. Do first - understand later.
-- I won't make excuses or justifications about the size of the Elm community
-- Note about 0.19 - some things have changed - but my examples will use 0.18 e.g. elm-lang packages now elm and elm-package.json is now elm.json
-- If you are interested in any of those, come and see me later - I can point you towards some resources.
+- Loads of people teach functional concepts better than I can
+- one of the awesome things about elm is that you can forget it's functional
+- Do first - understand later. CLICK
+- won't make excuses or justifications about the size of the Elm community CLICK
+- Note about 0.19 - some things have changed - but my examples will use 0.18
+- If you are interested in any of those, come and see me later
 
 
 +++
@@ -87,12 +91,11 @@ Any of these look familiar?
 Note:
 - Building user interfaces for amazing APIs
 - Our tools = code - languages, libraries, frameworks, transpilers, editors/ ides (sadly not lego)
-
 - We're lucky enough to be in a rapidly evolving industry.
 - A few years ago we'd have written html, css and a bit of jquery
 - Maybe used some templating
-- As we asked our browsers to handle interpreting more and more complex code - our code turned to unpredictable, unmaintainable, magic, held together by sticky tape...
-- Frameworks started popping up, and build tools and new syntaxes that would make the code easier to use in the way we wanted to - and transpilers.
+- But then it complicated - our code turned to unpredictable, unmaintainable, magic bits and scary bits we didn't want to touch
+- Frameworks started popping up, and build tools and new syntaxes transpilers ot make the code easier to use in the way we wanted to.
 
 ---
 
@@ -107,18 +110,16 @@ Note:
 
 +++
 
-### A few things to know before we get started...
+![](elm-lang-home.png)
 
-@ul
 - Uses ML style syntax
 - Based on functional programming principles
 - Statically typed
 - Compiles to Javascript
-- More than a language, it defines an architecture that helps us write good code
-@ulend
+- More than a language, defines an architecture that helps us write good code
 
 Note:
-- Elm is a language based on functional programming principles that compiles to Javascript and defines an architecture that makes rapid prototyping, evolving and scaling web apps and maintaining a single source of truth easy.
+-XXX Elm is a language based on functional programming principles that compiles to Javascript and defines an architecture that makes rapid prototyping, evolving and scaling web apps and maintaining a single source of truth easy.
 - Instead of listing the benefits - let's see how it works.
 
 ---
