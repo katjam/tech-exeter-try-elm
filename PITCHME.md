@@ -525,9 +525,9 @@ view model =
         [ div [ style [ ( "padding-left", "2em" ) ] ]
             [ h1 [] [ text "Hello Exeter!" ]
             , h2 [] [ text "Let's count some bricks." ]
-            , button [ onClick (AddOne (StringColor "red")) ] [ text "One more red!" ]
-            , button [ onClick (AddOne (RgbColor 192 80 100)) ] [ text "One more blue!" ]
-            , button [ onClick (AddOne (StringColor "brown")) ] [ text "One more brown!" ]
+            , button [ onClick (AddOne (StringColor "yellowgreen")) ] [ text "One more green!" ]
+            , button [ onClick (AddOne (RgbColor 246 235 15)) ] [ text "One more yellow!" ]
+            , button [ onClick (AddOne (RgbColor 158 44 145)) ] [ text "One more purple!" ]
             , button [ onClick Reset ] [ text "reset" ]
             , ul [ style [ ( "list-style", "none" ) ] ]
                 (List.map makeBrick model.bricks)
