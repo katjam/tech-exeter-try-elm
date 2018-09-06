@@ -14,7 +14,9 @@ Note:
 - Never thought of myself as a frontend dev - because I can't do visual design - most coding in backends and APIs in php.
 - Last year I ended up leading a project that turned out not to need a backend... so I chose Elm
 
--I like making stuff that helps
++++
+
+## I like making stuff that helps
 
 - Generally optimistic
 - Learn by doing
@@ -399,7 +401,7 @@ model =
 
 
 type Msg
-    = AddOne String
+    = AddOne
     | Reset
 
 
@@ -444,12 +446,16 @@ Note:
 
 +++
 ## Oops!
-### I forgot to change the type in the update message
+### I forgot to add Colour to the update message
 
 ![](with-expecting-color.png)
 
-Note:
-- data types change - never happens in real life, right?
++++
+
+## Oops!
+### I forgot that Color is American
+
+![](us-color.png)
 
 +++
 ## Not the colours you were looking for?
