@@ -291,10 +291,11 @@ Note:
 
 
 Note:
-IMAGE - client with button presser.
-ELM coder no problem. JS getting - which framework to choose?
+- IMAGE - client with button presser.
+- ELM coder no problem. JS getting - which framework to choose?
 
-Note: We'll follow the elm project. leave js up to your imagination.
+Note: 
+- We'll follow the elm project. leave js up to your imagination.
 
 +++
 ## Awesome brick counter!
@@ -372,8 +373,8 @@ main =
 ## Scenario update!
 
 Note:
-IMAGE - client wants colour
-ELM coder no problem. JS - ummm ok?
+- IMAGE - client wants colour
+- ELM coder no problem. JS - ummm ok?
 
 Note:
 - new feature we hadn't considered - never happens in real life, right?
@@ -463,7 +464,7 @@ Note:
 ![](us-color.png)
 
 Note:
-Yay - compiles! Now I know we're good to go.
+- Yay - compiles! Now I know we're good to go.
 +++
 ## Not the colours you were looking for?
 
