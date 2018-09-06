@@ -372,8 +372,6 @@ main =
 Note:
 - IMAGE - client wants colour
 - ELM coder no problem. JS - ummm ok?
-
-Note:
 - new feature we hadn't considered - never happens in real life, right?
 
 +++
