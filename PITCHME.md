@@ -18,6 +18,7 @@ Note:
 
 ## I like making stuff that helps
 
+Note:
 - Generally optimistic
 - Learn by doing
 - In practice that means - I like to jump right try, fail... then try again
@@ -74,6 +75,7 @@ Note:
 
 - Shine a little light on Elm and why I enjoy using it
 
+Note:
 Image sad js dev happy elm dev
 
 ---
