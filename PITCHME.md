@@ -360,17 +360,13 @@ Note:
 ### Confident refactor
 ### 0 runtime error
 
-![](with-colour-list.png, "That's better")
+![](with-colour-list.png)
 
 Note:
 - Start by adding new feature in view - follow compiler messages
 - Show minor typo example as js runtime error colour vs color
 +++
 ## Scenario update!
-
-IMAGE - client wants better colours - no strings
-ELM coder no problem. JS - uh oh!
-
 ```
 module Main exposing (..)
 
@@ -435,13 +431,14 @@ main =
 @[3](Import Color from core)
 @[48-50](Replace old string values with Color values)
 
+Note:
+- Client wants a list of colours - not strings.
+
 +++
 ## Oops!
 ### I forgot to change the type in the update message
 
 ![](with-expecting-color.png)
-
-+++
 
 Note:
 - data types change - never happens in real life, right?
