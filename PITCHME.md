@@ -444,6 +444,11 @@ Note:
 - data types change - never happens in real life, right?
 
 +++
+## Not the colours you were looking for?
+
+![](yay-colors.png)
+
++++
 ## Using union types
 ### Impossible states impossible 
 Note:
