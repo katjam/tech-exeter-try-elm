@@ -451,14 +451,109 @@ Note:
 
 +++
 ## Using union types
-### Impossible states impossible 
+
+```
+module Main exposing (..)
+
+import Html exposing (Html, button, div, h1, h2, li, text, ul)
+import Html.Attributes exposing (class, style)
+import Html.Events exposing (onClick)
+
+
+-- MODEL
+
+
+type Color
+    = StringColor String
+    | RgbColor Int Int Int
+
+
+type alias Model =
+    { bricks : List Color }
+
+
+model : Model
+model =
+    { bricks = [] }
+
+
+
+-- UPDATE
+
+
+type Msg
+    = AddOne Color
+    | Reset
+
+
+update : Msg -> Model -> Model
+update msg model =
+    case msg of
+        AddOne colour ->
+            { model | bricks = colour :: model.bricks }
+
+        Reset ->
+            { model | bricks = [] }
+
+
+
+-- VIEW
+
+
+view : Model -> Html Msg
+view model =
+    div []
+        [ div [ style [ ( "padding-left", "2em" ) ] ]
+            [ h1 [] [ text "Hello Exeter!" ]
+            , h2 [] [ text "Let's count some bricks." ]
+            , button [ onClick (AddOne (StringColor "red")) ] [ text "One more red!" ]
+            , button [ onClick (AddOne (RgbColor 192 80 100)) ] [ text "One more blue!" ]
+            , button [ onClick (AddOne (StringColor "brown")) ] [ text "One more brown!" ]
+            , button [ onClick Reset ] [ text "reset" ]
+            , ul [ style [ ( "list-style", "none" ) ] ]
+                (List.map makeBrick model.bricks)
+            ]
+        ]
+
+
+
+-- Brick li
+
+
+makeBrick : Color -> Html Msg
+makeBrick colour =
+    li
+        [ style
+            [ ( "background-color", cssColor colour )
+            , ( "height", "50px" )
+            , ( "margin", "8px" )
+            , ( "width", "160px" )
+            ]
+        ]
+        []
+
+
+
+-- Color to css
+
+
+cssColor : Color -> String
+cssColor color =
+    case color of
+        RgbColor r g b ->
+            "rgb(" ++ toString r ++ "," ++ toString g ++ "," ++ toString b ++ ")"
+
+        StringColor colorString ->
+            colorString
+
+
+main =
+    Html.beginnerProgram { model = model, view = view, update = update }
+    
+```
+
 Note:
 - Colour = Colour not Colour = string
-- So later when colour changes to tuple with rgb values... compiler will tell us in all the places we used it.
-
-+++
-## Easy to expose good API
-- we only need the display, not the logic.
 
 ---
 ## Cool things for free
