@@ -289,12 +289,9 @@ Note:
 ---
 ## Quick scenario
 
-
 Note:
 - IMAGE - client with button presser.
 - ELM coder no problem. JS getting - which framework to choose?
-
-Note: 
 - We'll follow the elm project. leave js up to your imagination.
 
 +++
