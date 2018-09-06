@@ -380,16 +380,8 @@ Note:
 
 +++
 ## Compiler lead development
-### Confident refactor
-### 0 runtime error
+### Confident refactor. 0 runtime error.
 
-![](with-colour-list.png)
-
-Note:
-- Start by adding new feature in view - follow compiler messages
-- Show minor typo example as js runtime error colour vs color
-+++
-## Scenario update!
 ```
 module Main exposing (..)
 
@@ -455,7 +447,7 @@ main =
 @[48-50](Replace old string values with Color values)
 
 Note:
-- Client wants a list of colours - not strings.
+- Start by adding new feature in view - follow compiler messages
 
 +++
 ## Oops!
