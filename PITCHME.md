@@ -369,7 +369,7 @@ main =
 ## Awesome brick counter!
 ![](init-main.png)
 
-++
++++
 ## Scenario update!
 
 IMAGE - client wants colour
