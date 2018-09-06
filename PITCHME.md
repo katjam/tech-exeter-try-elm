@@ -301,7 +301,7 @@ Note: We'll follow the elm project. leave js up to your imagination.
 ## Awesome brick counter!
 
 ```elm
-modeule Main exposing (..)
+module Main exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (class, style)
@@ -360,13 +360,16 @@ main =
 
 ```
 
-@[1-4](Import from libraries and expose only the bits you need)
-@[5-11](Our Model)
-@[12-19](Our Update functions)
-@[20-32](Our View)
-@[33-35](The magic!)
+@[1-5](Import from libraries and expose only the bits you need)
+@[7-16](Our Model)
+@[20-35](Our Update functions)
+@[39-52](Our View)
 
 +++
+## Awesome brick counter!
+![](init-main.png)
+
+++
 ## Scenario update!
 
 IMAGE - client wants colour
