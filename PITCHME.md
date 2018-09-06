@@ -14,11 +14,7 @@ Note:
 - Never thought of myself as a frontend dev - because I can't do visual design - most coding in backends and APIs in php.
 - Last year I ended up leading a project that turned out not to need a backend... so I chose Elm
 
-+++
-
-## I like making stuff that helps
-
-Note:
+-I like making stuff that helps
 
 - Generally optimistic
 - Learn by doing
@@ -26,8 +22,6 @@ Note:
 - I love javascript
 - It would surprise my colleagues to hear that - the running of js - equality, freedom it creates by having a core of universally supported standard on majority of our devices
 - I do not like reading or writing javascript
-- Believe in open source, open minded
-- Collaboration and sharing for progress and inclusion
 
 ---
 
@@ -95,7 +89,7 @@ Note:
 - A few years ago we'd have written html, css and a bit of jquery
 - Maybe used some templating
 - But then it complicated - our code turned to unpredictable, unmaintainable, magic bits and scary bits we didn't want to touch
-- Frameworks started popping up, and build tools and new syntaxes transpilers ot make the code easier to use in the way we wanted to.
+- Frameworks started popping up, and build tools and new syntaxes transpilers to make the code easier to use in the way we wanted to.
 
 ---
 
@@ -259,7 +253,6 @@ a [ href "/my-path" ] [ text "Follow the high road" ]
 
 Note:
 - html5 elements fully implemented
-- if you need custom element define using basic dom node
 
 +++
 ## Html?
@@ -671,8 +664,6 @@ main =
 ```
 ![](main3-1.png)
 
-+++
-
 @[85-92](Define a function that takes a Color and outputs String)
 @[11-13](Union types are great)
 
@@ -696,5 +687,5 @@ Note:
 ---
 ## Join the Elm community
 - Elm town, meetups, slack, discourse, great docs, conferences
-- Great for learning - I'm working on a course for primary school children
+- Great for learning - even for primary school children
 - Easy for non-programmers - e.g. scientists needing visualisations
