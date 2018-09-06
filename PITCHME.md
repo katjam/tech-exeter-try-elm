@@ -289,6 +289,8 @@ Note:
 ---
 ## Quick scenario
 
+
+Note:
 IMAGE - client with button presser.
 ELM coder no problem. JS getting - which framework to choose?
 
@@ -369,6 +371,7 @@ main =
 +++
 ## Scenario update!
 
+Note:
 IMAGE - client wants colour
 ELM coder no problem. JS - ummm ok?
 
@@ -460,7 +463,7 @@ Note:
 ![](us-color.png)
 
 Note:
-Yay - cmopiles! Now I know we're good to go.
+Yay - compiles! Now I know we're good to go.
 +++
 ## Not the colours you were looking for?
 
