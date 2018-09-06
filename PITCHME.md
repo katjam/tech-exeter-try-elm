@@ -121,7 +121,7 @@ Note:
 ---
 ## Anatomy of an Elm app
 
-CODE - beginner programme highlight model then update then view
+![](mvu.png)
 
 Note:
 - model - your 'state'
@@ -457,6 +457,8 @@ Note:
 
 ![](us-color.png)
 
+Note:
+Yay - cmopiles! Now I know we're good to go.
 +++
 ## Not the colours you were looking for?
 
