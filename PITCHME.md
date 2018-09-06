@@ -570,6 +570,8 @@ main =
 @[68-78](Start with getting the bricks right)
 
 +++
+![](main3-1.png)
++++
 
 ```
 module Main exposing (..)
@@ -671,7 +673,6 @@ main =
     
 
 ```
-![](main3-1.png)
 
 @[85-92](Define a function that takes a Color and outputs String)
 @[11-13](Union types are great)
