@@ -301,43 +301,62 @@ Note: We'll follow the elm project. leave js up to your imagination.
 ## Awesome brick counter!
 
 ```elm
+modeule Main exposing (..)
+
 import Html exposing (..)
-import Html.Attributes exposing (style)
+import Html.Attributes exposing (class, style)
 import Html.events exposing (onClick)
 
 -- MODEL
 
-type alias Model =
-    { bricks: Int }
 
-model: Model
+type alias Model =
+    { bricks : Int }
+
+
+model : Model
 model =
-    { bricks = 9 }
+    { bricks = 0 }
+
+
 
 -- UPDATE
 
+
 type Msg
-    = Reset
+    = AddOne
+    | Reset
+
 
 update : Msg -> Model -> Model
 update msg model =
     case msg of
+        AddOne ->
+            { model | bricks = model.bricks + 1 }
+
         Reset ->
-          { model | bricks = 0 }
+            { model | bricks = 0 }
+
+
 
 -- VIEW
 
+
 view : Model -> Html Msg
 view model =
-    div [ style [("padding-left", "2em")] ]
-        [ h1 [] [ text "Hello Exeter!" ]
-        , h2 [] [ text "Let's count some bricks" ]
-        , div [] [ text (toString model.bricks) ]
-        , button [ onClick Reset ] [ text "reset" ]
+    div []
+        [ div [ style [ ( "padding-left", "2em" ) ] ]
+            [ h1 [] [ text "Hello Exeter!" ]
+            , h2 [] [ text "Let's count some bricks." ]
+            , div [] [ text (toString model.bricks) ]
+            , button [ onClick AddOne ] [ text "One more!" ]
+            , button [ onClick Reset ] [ text "reset" ]
+            ]
         ]
 
+
 main =
-  Html.beginnerProgram { model = model, view = view, update = update }
+    Html.beginnerProgram { model = model, view = view, update = update }
 
 ```
 
