@@ -90,10 +90,9 @@ Note:
 - Building user interfaces for amazing APIs
 - Our tools = code - languages, libraries, frameworks, transpilers, editors/ ides (sadly not lego)
 - We're lucky enough to be in a rapidly evolving industry.
-- A few years ago we'd have written html, css and a bit of jquery
-- Maybe used some templating
-- But then it complicated - our code turned to unpredictable, unmaintainable, magic bits and scary bits we didn't want to touch
-- Frameworks started popping up, and build tools and new syntaxes transpilers to make the code easier to use in the way we wanted to.
+- A few years ago we'd have written html, css and a bit of jquery Maybe used some templating
+- Then got complicated - our code turned to unpredictable, unmaintainable, magic bits and scary bits we didn't want to touch
+- Frameworks started popping up, and build tools and new syntaxes transpilers to help make it easier for us to control
 
 ---
 
