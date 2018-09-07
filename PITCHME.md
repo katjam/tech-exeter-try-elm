@@ -289,6 +289,8 @@ Note:
 ---
 ## Quick scenario
 
+![](lego.png)
+
 Note:
 - IMAGE - client with button presser.
 - ELM coder no problem. JS getting - which framework to choose?
