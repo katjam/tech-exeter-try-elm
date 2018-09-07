@@ -677,6 +677,14 @@ main =
 @[85-92](Define a function that takes a Color and outputs String)
 @[11-13](Union types are great)
 
++++
+![](hex.png)
+
+Note:
+- A few months later you need support for hex colors
+- You don't need to think about which funtions use Color or search them out
+- Just add the option to your union type and the compiler will tell you
+
 ---
 ## Cool things for free
 - Tooling elm-make and elm-reactor or create-elm-app or webpack
