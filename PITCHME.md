@@ -572,7 +572,7 @@ main =
 
 +++
 
-## We need to write the cssColor function
+We need to write the cssColor function
 
 ![](main3-1.png)
 
@@ -689,7 +689,7 @@ Note:
 
 +++
 
-## Cover the new case everywhere Colour is used
+Cover the new case everywhere Colour is used
 
 ![](add-hex.png)
 ![](hex.png)
