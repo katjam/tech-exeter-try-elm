@@ -359,7 +359,7 @@ main =
 
 @[1-5](Import from libraries and expose only the bits you need)
 @[7-16](Our Model)
-@[20-35](Our Update functions)
+@[23-35](Our Update functions)
 @[39-52](Our View)
 
 +++
@@ -571,7 +571,8 @@ main =
 @[68-78](Start with getting the bricks right)
 
 +++
-We need to write the cssColor function
+## We need to write the cssColor function
+
 ![](main3-1.png)
 +++
 
@@ -679,14 +680,16 @@ main =
 @[85-92](Define a function that takes a Colour and outputs String)
 @[11-13](Union types are great)
 
-+++
-Cover the new case everywhere Colour is used
-![](hex.png)
-
 Note:
 - A few months later you need support for hex colors
 - You don't need to think about which funtions use Color or search them out
 - Just add the option to your union type and the compiler will tell you
+
++++
+##Cover the new case everywhere Colour is used
+
+![](add-hex.png)
+![](hex.png)
 
 ---
 ## Cool things for free
