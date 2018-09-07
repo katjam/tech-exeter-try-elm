@@ -456,7 +456,7 @@ Note:
 +++
 
 ## Oops!
-### I forgot that Color is American
+### I forgot it's an American Color
 
 ![](us-color.png)
 
