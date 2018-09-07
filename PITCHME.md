@@ -571,9 +571,11 @@ main =
 @[68-78](Start with getting the bricks right)
 
 +++
+
 ## We need to write the cssColor function
 
 ![](main3-1.png)
+
 +++
 
 ```
@@ -686,7 +688,8 @@ Note:
 - Just add the option to your union type and the compiler will tell you
 
 +++
-##Cover the new case everywhere Colour is used
+
+## Cover the new case everywhere Colour is used
 
 ![](add-hex.png)
 ![](hex.png)
