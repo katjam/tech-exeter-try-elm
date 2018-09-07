@@ -9,7 +9,7 @@ No runtime errors. Safe and fun refactors!
 
 Note:
 
-- Senior dev at Neontribe. Working with web techn 10 years - not computer scientist/ engineer
+- Senior dev at Neontribe. Working with web tech 10 years - not computer scientist/ engineer
 - just like making stuff - use code.  
 - Never thought of myself as a frontend dev - because I can't do visual design - most coding in backends and APIs in php.
 - Last year I ended up leading a project that turned out not to need a backend... so I chose Elm
@@ -292,7 +292,6 @@ Note:
 ![](lego.png)
 
 Note:
-- IMAGE - client with button presser.
 - ELM coder no problem. JS getting - which framework to choose?
 - We'll follow the elm project. leave js up to your imagination.
 
@@ -371,8 +370,9 @@ main =
 +++
 ## Scenario update!
 
+![](colours.png)
+
 Note:
-- IMAGE - client wants colour
 - ELM coder no problem. JS - ummm ok?
 - new feature we hadn't considered - never happens in real life, right?
 
