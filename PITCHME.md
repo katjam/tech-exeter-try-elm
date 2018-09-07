@@ -481,7 +481,7 @@ import Html.Events exposing (onClick)
 -- MODEL
 
 
-type Color
+type Colour
     = StringColor String
     | RgbColor Int Int Int
 
@@ -500,7 +500,7 @@ model =
 
 
 type Msg
-    = AddOne Color
+    = AddOne Colour
     | Reset
 
 
@@ -538,11 +538,11 @@ view model =
 -- Brick li
 
 
-makeBrick : Color -> Html Msg
-makeBrick colour =
+makeBrick : Colour -> Html Msg
+makeBrick color =
     li
         [ style
-            [ ( "background-color", cssColor colour )
+            [ ( "background-color", cssColor color )
             , ( "height", "50px" )
             , ( "margin", "8px" )
             , ( "width", "160px" )
@@ -555,7 +555,7 @@ makeBrick colour =
 -- Color to css
 
 
-cssColor : Color -> String
+cssColor : Colour -> String
 cssColor color =
     case color of
         RgbColor r g b ->
@@ -572,6 +572,7 @@ main =
 @[68-78](Start with getting the bricks right)
 
 +++
+We need to write the cssColor function
 ![](main3-1.png)
 +++
 
@@ -586,7 +587,7 @@ import Html.Events exposing (onClick)
 -- MODEL
 
 
-type Color
+type Colour
     = StringColor String
     | RgbColor Int Int Int
 
@@ -605,7 +606,7 @@ model =
 
 
 type Msg
-    = AddOne Color
+    = AddOne Colour
     | Reset
 
 
@@ -643,11 +644,11 @@ view model =
 -- Brick li
 
 
-makeBrick : Color -> Html Msg
-makeBrick colour =
+makeBrick : Colour -> Html Msg
+makeBrick color =
     li
         [ style
-            [ ( "background-color", cssColor colour )
+            [ ( "background-color", cssColor color )
             , ( "height", "50px" )
             , ( "margin", "8px" )
             , ( "width", "160px" )
@@ -657,10 +658,10 @@ makeBrick colour =
 
 
 
--- Color to css
+-- Colour to css
 
 
-cssColor : Color -> String
+cssColor : Colour -> String
 cssColor color =
     case color of
         RgbColor r g b ->
@@ -676,10 +677,11 @@ main =
 
 ```
 
-@[85-92](Define a function that takes a Color and outputs String)
+@[85-92](Define a function that takes a Colour and outputs String)
 @[11-13](Union types are great)
 
 +++
+Cover the new case everywhere Colour is used
 ![](hex.png)
 
 Note:
